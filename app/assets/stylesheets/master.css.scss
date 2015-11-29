@@ -16,9 +16,12 @@ h1, h2, h3, h4, h4, h6 {
 }
 
 body {
-  background:url('/assets/diamond_upholstery.png');
+  background: url('/assets/whitediamond.png');
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .navbar.navbar-inverse {
-  background:url('/assets/denim.png');
+  background: url('/assets/denim.png');
+  border-radius: 0;
+  box-shadow: 0px 3px 3px grey;
 }
