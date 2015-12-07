@@ -1,4 +1,5 @@
 Nomster::Application.configure do
+
   config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.smtp_settings = {
@@ -10,6 +11,8 @@ Nomster::Application.configure do
     user_name: ENV['GMAIL_ADDRESS'],
     password: ENV['GMAIL_PASSWORD']
   }
+  
+  config.action_mailer.default_url_options = { :host => 'localhost:3030' }
 
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -38,4 +41,5 @@ Nomster::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
 end
