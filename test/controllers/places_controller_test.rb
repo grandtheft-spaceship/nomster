@@ -5,3 +5,7 @@ class PlacesControllerTest < ActionController::TestCase
   #   assert true
   # end
 end
+
+class ActionController::TestCase
+	include Devise::TestHelpers
+end
